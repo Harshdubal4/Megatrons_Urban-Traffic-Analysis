@@ -1,22 +1,12 @@
-# McKinsey-SmartCities-Traffic-Prediction
-Adventure into using NN for time-series for the 20171118 McKinsey IronMan (24h non-stop) prediction challenge
-
-
-This was a code I created without sleeping for the following challenge: https://datahack.analyticsvidhya.com/contest/mckinsey-analytics-hackathon/
-
+Megatrons Urban Traffic Analysis	
+Analyze and visualize urban traffic patterns during peak hours.
 
 # Problem statement
 
-**Mission:** You are working with the government to transform your city into a smart city.
-The vision is to convert it into a digital and intelligent city to improve the efficiency of services for the citizens.
-One of the problems faced by the government is traffic.
-You are a data scientist working to manage the traffic of the city better and to provide input on infrastructure planning for the future.
-
-The government wants to implement a robust traffic system for the city by being prepared for traffic peaks.
-They want to understand the traffic patterns of the four junctions of the city.
-Traffic patterns on holidays, as well as on various other occasions during the year, differ from normal working days.
-This is important to take into account for your forecasting.
-
+Context & Overview:
+Urban areas around the world are experiencing rapid population growth, leading to increased traffic congestion during peak hours. This congestion negatively impacts transportation efficiency, public safety, economic activity, and environmental sustainability. In many cities, peak hours are characterized by a higher concentration of vehicles on roads, leading to bottlenecks, delays, and air pollution. However, a detailed understanding of traffic patterns during these peak hours can provide valuable insights for optimizing traffic management, infrastructure development, and urban planning.
+Objective:
+The primary objective of this project is to analyze and visualize urban traffic patterns during peak hours in order to identify key trends, predict traffic flow, and propose actionable solutions to reduce congestion and improve overall traffic efficiency. The team, "Megatrons," will focus on understanding the underlying causes of traffic jams, modeling peak-hour traffic behavior, and presenting data-driven insights that can inform policy decisions, traffic management strategies, and infrastructure investments.
 **Your task:** To predict traffic patterns in each of these four junctions for the next 4 months.
 
 **Data:** The sensors on each of these junctions were collecting data at different times,
@@ -28,9 +18,6 @@ Your algorithm will become the foundation of a larger transformation to make you
 
 The evaluation metric for the competition is RMSE. Public-Private split for the competition is 25:75.
 
-# Exploratory Data Analysis (EDA)
-
-See [here](EDA.ipynb)
 
 We have 48120 point of training data (data **each hour** from 2015-11-01 to 2017-06-30 for 4 junctions)
 And 11808 points to predict
